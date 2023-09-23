@@ -1,7 +1,3 @@
-:root {
-    --main-text-color:rgb(91, 44, 1);
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,12 +9,14 @@ html {
 }
 
 body {
+    font-family: monospace;
+    font-weight: bold;
     background-color: #d6c7b5;
+    color: rgb(91, 44, 1);
 }
 
 header {
     padding: 15px;
-    font-family: monospace;
     background-color: rgb(254, 235, 210);
     color: rgb(102, 54, 8);
 }
@@ -29,35 +27,69 @@ header h1 {
 }
 
 header nav {
-    font-family: monospace;
-    font-weight: bold;
     font-size: 150%;
-    /* display: inline-block; */
-    /* margin-left: 25px; */
+    display: inline-flex;
     float: right;
-    text-align: ;
-    /* margin: -40px 50px 50px 0px; */
+}
+
+header nav li {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(91, 44, 1);
+  }
+
+a:hover {
+    color: crimson;
 }
 
 img {
+    float: left;
     width: 300px;
-    height: auto;
     margin: 10px;
     border-radius: 10px
 }
 
-p {
-    margin-left: 10px;
-    margin-top: -10px;
-    font-size: 200%;
+main h1 {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 240px;
+
 }
 
-aside a {
-    color: var(--main-text-color);
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 150%;
+main h2 {
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 240px;
+}
+
+.intro-container {
+    background-color: rgb(236, 221, 195);
+}
+
+.project-container {
     float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Project-1 {
+    font-size: 150%;
+    margin: 10px;
+    padding: 200px;
+    background-color: aliceblue;
+    flex-grow: 5;
+}
+
+.Project {
+    font-size: 150%;
+    margin: 10px;
+    background-color: aliceblue;
+    flex-grow: 1;
 }
 
 footer {
