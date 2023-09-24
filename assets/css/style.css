@@ -154,33 +154,33 @@ footer a {
     }
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .project-container {
       flex-direction: column;
     }
-  }
+  } */
 
 @media (max-width: 1400px) {
     article {
-        min-width: 400px;
+        min-width: 45%;
     }
 }
   
-@media (max-width: 800px) {
+/* @media (max-width: 830px) {
     article {
-        min-width: 400px;
+        min-width: 45%;
     }
-}
+} */
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
     #Project-1 {
         min-width: 500px;
     }
-}
+} */
   
 @media (max-width: 800px) {
     #Project-1 {
-        min-width: 450px;
+        min-width: 95%;
     }
 }
 
