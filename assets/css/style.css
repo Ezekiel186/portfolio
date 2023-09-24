@@ -148,7 +148,7 @@ footer a {
     color: rgb(24, 157, 234);
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1620px) {
     aside img {
         max-width: 23%;
     }
@@ -169,6 +169,18 @@ footer a {
 @media (max-width: 800px) {
     article {
         min-width: 400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #Project-1 {
+        min-width: 500px;
+    }
+}
+  
+@media (max-width: 800px) {
+    #Project-1 {
+        min-width: 450px;
     }
 }
 
