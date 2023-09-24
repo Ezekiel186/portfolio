@@ -49,22 +49,23 @@ a:hover {
 
 img {
     float: left;
-    width: 300px;
+    width: 400px;
     margin: 10px;
+    max-width: 100%;
     border-radius: 10px
 }
 
 main h1 {
     font-size: 300%;
     text-align: center;
-    padding-top: 240px;
+    padding-top: 20%;
 
 }
 
 main h2 {
     text-align: center;
     font-size: 200%;
-    padding-bottom: 240px;
+    padding-bottom: 20%;
 }
 
 .intro-container {
@@ -73,26 +74,30 @@ main h2 {
 
 .project-container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     /* flex-direction: column; */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 #Project-1 {
     font-size: 150%;
     display: block;
-    /* margin: 10px; */
+    margin: 5px;
     text-align: center;
-    width: 700px;
-    height: 500px;
+    width: 30%;
+    /* height: auto; */
     /* background-color: beige; */
     /* flex-grow: 0; */
 }
 
 #Project-1 img {
-    margin: 20px;
-    width: 650px;
-    height: 450px;
+    /* margin: 20px; */
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
 }
 
 #Project-1 p {
@@ -101,13 +106,47 @@ main h2 {
 
 #Project {
     font-size: 150%;
-    margin: 10px;
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
+    display: block;
+    margin: 5px;
+    width: 20%;
+    text-align: center;
+    /* height: 357px; */
+    /* background-color: aliceblue; */
     /* flex-grow: 1; */
 }
 
-footer {
-    margin: 300px;
+#Project img {
+    /* margin: 20px; */
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
 }
+
+#Project p{
+    background-color: bisque;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer ul {
+    font-size: 16px;
+}
+
+footer a {
+    color: rgb(24, 157, 234);
+}
+
+@media (max-width: 1600px) {
+    img {
+        max-width: 23%;
+    }
+}
+  
+  /* mobile*/
+  /* @media screen and (max-width: 480px) {
+    #Project, #Project-1 {
+        flex: 1 0 100%;
+      }
+  } */ 
