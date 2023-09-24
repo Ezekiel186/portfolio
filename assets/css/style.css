@@ -73,6 +73,13 @@ main h2 {
 }
 
 .project-container {
+    /* border: 3px dashed  rgb(203, 154, 90); */
+    margin: 0 auto;
+    margin-top: 20px;
+    /* width: 90%;
+    height: 25%; */
+    /* max-width: 1500px;
+    max-height: 300px; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -102,6 +109,7 @@ main h2 {
 
 #Project-1 p {
     background-color: bisque;
+    border-radius: 10px;
 }
 
 #Project {
@@ -124,10 +132,12 @@ main h2 {
 
 #Project p{
     background-color: bisque;
+    border-radius: 10px;
 }
 
 footer {
     margin: 20px;
+    text-align: center;
 }
 
 footer ul {
@@ -139,11 +149,29 @@ footer a {
 }
 
 @media (max-width: 1600px) {
-    img {
+    aside img {
         max-width: 23%;
     }
 }
+
+@media (max-width: 800px) {
+    .project-container {
+      flex-direction: column;
+    }
+  }
+
+@media (max-width: 1400px) {
+    article {
+        min-width: 400px;
+    }
+}
   
+@media (max-width: 800px) {
+    article {
+        min-width: 400px;
+    }
+}
+
   /* mobile*/
   /* @media screen and (max-width: 480px) {
     #Project, #Project-1 {
