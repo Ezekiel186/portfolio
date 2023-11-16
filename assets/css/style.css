@@ -1,9 +1,9 @@
 :root {
     --back:#F2f2f2;
     --main:  #F2C744;
-    --accent:#404040;
+    --accent:#000000;
     --text: #404040;
-    --hover: #BBEEF1;
+    --hover: #BEEEF9;
 }
 
 * {
