@@ -1,9 +1,9 @@
 :root {
-    --back:#F2f2f2;
-    --main:  #F2C744;
-    --accent:#000000;
-    --text: #404040;
-    --hover: #BEEEF9;
+    --back:#0c0c0d;
+    --main:  #590f08;
+    --accent:#bf3604;
+    --text: #ffffff;
+    --hover: #c398fe;
 }
 
 * {
