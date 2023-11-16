@@ -1,3 +1,11 @@
+:root {
+    --back: #0B0C10;
+    --main: #1F2833;
+    --accent: #66FCF1;
+    --text: #C5C6C7;
+    --hover: crimson;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,8 +19,8 @@ html {
 body {
     font-family: monospace;
     font-weight: bold;
-    background-color: #0B0C10;
-    color: #C5C6C7;
+    background-color: var(--back);
+    color: var(--text);
 }
 
 header {
@@ -39,7 +47,7 @@ header nav li {
 
 /* shadows */
 .me, .project-container, footer {
-    box-shadow: 5px 5px 10px #66FCF1;
+    box-shadow: 5px 5px 10px var(--accent);
 }
 
 
@@ -56,7 +64,7 @@ header nav li {
 .me {
     width: 90%;
     margin-top: 30px;
-    background-color: #1F2833;
+    background-color: var(--main);
     text-align: center;
     border-radius: 10px;
     display: flex;
@@ -68,7 +76,7 @@ header nav li {
     margin: 35px;
     width: 20%;
     border-radius: 50%;
-    border: #0B0C10 5px solid;
+    border: var(--back) 5px solid;
 }
 
 .text-container {
@@ -85,7 +93,7 @@ header nav li {
 
 a {
     text-decoration: none;
-    color: #66FCF1;
+    color: var(--accent);
   }
 
 #Project-1:hover {
@@ -99,7 +107,7 @@ a {
 }
 
 a:hover {
-    color: crimson;
+    color: var(--hover);
 }
 
 main h1 {
@@ -120,7 +128,7 @@ main h2 {
 }
 
 .project-container {
-    background-color: #1F2833;
+    background-color: var(--main);
     padding: 20px;
     border-radius: 10px;
     width: 80%;
@@ -173,14 +181,14 @@ main h2 {
 }
 
 #Project p, #Project-1 p {
-    background-color: #0B0C10;
+    background-color: var(--back);
     border-radius: 10px;
 }
 
 /* contact info */
 
 footer {
-    background-color: #1F2833;
+    background-color: var(--main);
     padding: 20px;
     border-radius: 10px;
     width: 80%;
@@ -193,7 +201,7 @@ footer {
 
 .contact-container {
     padding: 20px;
-    background-color: #0B0C10;
+    background-color: var(--back);
     width: 80%;
     text-align: center;
     justify-content: space-between;
@@ -207,7 +215,7 @@ footer ul {
 }
 
 footer a {
-    color: #66FCF1;
+    color: var(--accent);
 }
 
 /* media queries */
