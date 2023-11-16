@@ -1,9 +1,9 @@
 :root {
-    --back:#0c0c0d;
-    --main:  #590f08;
-    --accent:#bf3604;
-    --text: #ffffff;
-    --hover: #c398fe;
+    --back: #0B0C10;
+    --main: #1F2833;
+    --accent: #66FCF1;
+    --text: #C5C6C7;
+    --hover: crimson;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
 
 header {
     padding: 15px;
-    background-color: var(--main);
+    background-color: #1F2833;
 }
 
 header h1 {
