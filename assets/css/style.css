@@ -1,8 +1,8 @@
 :root {
-    --back:#F2f2f2;
-    --main:  #F2C744;
+    --back:#f2e5de;
+    --main:  #8d540a;
     --accent:#000000;
-    --text: #404040;
+    --text: #4e2d21;
     --hover: crimson;
 }
 
@@ -62,9 +62,10 @@ header nav li {
 }
 
 .me {
+    margin: 10px;
     width: 90%;
     margin-top: 30px;
-    background-color: var(--main);
+    background-color: bisque;
     text-align: center;
     border-radius: 10px;
     display: flex;
@@ -76,7 +77,7 @@ header nav li {
     margin: 35px;
     width: 20%;
     border-radius: 50%;
-    border: var(--back) 5px solid;
+    border: var(--text) 5px solid;
 }
 
 .text-container {
@@ -184,7 +185,7 @@ main h2 {
 }
 
 #Project p, #Project-1 p {
-    background-color: var(--back);
+    background-color: bisque;
     border-radius: 10px;
 }
 
@@ -204,7 +205,7 @@ footer {
 
 .contact-container {
     padding: 20px;
-    background-color: var(--back);
+    background-color: bisque;
     width: 80%;
     text-align: center;
     justify-content: space-between;
